@@ -1,0 +1,69 @@
+.apresentacao__curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__conteudo__titulo{
+    padding: 1em;
+}
+
+.apresentacao__container__titulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    padding: 1em 0;
+    font-size: 1.25em;
+    text-transform: uppercase;
+
+}
+
+.apresentacao__container__texto1{
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-top: 0.2em;
+}
+
+.apresentacao__container__texto{
+    font-weight: 400;
+    font-size: 1.1em;
+    padding: 0.3em 0;
+}
+
+.apresentacao__container__subtitulo {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.3em 0;
+}
+
+.apresentacao__container__container {
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__container__lista{
+    list-style-type: disc;
+    margin: 1em;
+}
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+progress {
+    border-radius: 7px;
+    width: 80%;
+    height: 22px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--cor-secundaria);
+    border-radius: 7px;
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--cor-terciaria);
+    border-radius: 7px;
+}

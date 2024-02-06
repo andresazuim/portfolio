@@ -12,3 +12,20 @@
     color: var(--cor-secundaria);
     text-decoration: none;
 }
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 1.5em ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__menu{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .cabecalho__menu__link{
+        font-size: 1.2em;
+    }
+}

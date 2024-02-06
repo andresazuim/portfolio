@@ -99,16 +99,9 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
-/* a unidade de medida para a conversão do px para o rem é dividir a quantidade de px por 16(16 é igual a 1 rem) */
 
 @media (max-width: 1200px){
-    .cabecalho{
-        padding: 10% ;
-    }
-
-    .cabecalho__menu{
-        justify-content: center;
-    }
+   
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
@@ -116,6 +109,10 @@ body{
     
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__imagem{
+        width: 80%;
     }
 
 }
